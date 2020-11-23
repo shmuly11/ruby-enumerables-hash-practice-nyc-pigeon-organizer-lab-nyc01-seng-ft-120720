@@ -3,12 +3,10 @@ def nyc_pigeon_organizer(data)
   # write your code here!
   sorted_data = {}
   data.each do |key, value|
-    puts key
-  #  binding.pry
-   # value.each do |key2, value2|
-   #   sorted_data[{:value2 => {}}]
+    value.each do |key2, value2|
+      sorted_data[{:value2 => {}}]
     
-  #end
+  end
 end
 
 end
