@@ -6,4 +6,7 @@ def nyc_pigeon_organizer(data)
     value1.each do |key2, value2|
       sorted_data[{:value2 => {}}]
     binding.pry
+  end
+end
+
 end
