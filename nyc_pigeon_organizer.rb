@@ -11,7 +11,7 @@ def nyc_pigeon_organizer(data)
        if !sorted_data[name][key]
          sorted_data[name][key] = []
        end
-      sorted_data[name][key].push(key2)
+      sorted_data[name][key].push(key2.to_s)
       # binding.pry
       end
       
