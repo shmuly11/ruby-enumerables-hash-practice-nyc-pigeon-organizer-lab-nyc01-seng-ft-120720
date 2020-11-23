@@ -6,7 +6,11 @@ def nyc_pigeon_organizer(data)
     value.each do |key2, value2|
       value2.each do |name|
      
-      sorted_data[name] = {}
+      sorted_data[name] = {
+        :color => [],
+        :gender => [],
+        :lives => []
+      }
       # binding.pry
       end
     end
