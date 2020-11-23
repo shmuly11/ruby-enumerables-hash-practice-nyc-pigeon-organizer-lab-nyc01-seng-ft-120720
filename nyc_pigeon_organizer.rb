@@ -1,7 +1,8 @@
 def nyc_pigeon_organizer(data)
   # write your code here!
   sorted_data = {}
-  data.map do |birds|
-    birds.is_a?(String)
+  data.each do |key1, value1|
+    value1.each do |key2, value2|
+      sorted_data[{:value2 => {}}]
     
 end
