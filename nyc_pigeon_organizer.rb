@@ -8,6 +8,7 @@ def nyc_pigeon_organizer(data)
       sorted_data[name] = {}
     binding.pry 
   end
+  binding.pry
   end
 end
 
