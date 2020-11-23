@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
       value2.each do |name|
      
       sorted_data[name] = {}
-       binding.pry
+      # binding.pry
       end
       
         
