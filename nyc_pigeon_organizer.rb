@@ -6,14 +6,10 @@ def nyc_pigeon_organizer(data)
     value.each do |key2, value2|
       value2.each do |name|
      
-      sorted_data[name] = {
-        :color => [],
-        :gender => [],
-        :lives => []
-      }
+      sorted_data[name]
       # binding.pry
       end
-      if data[:color].any? == sorted_data[name]
+      
         
     end
   end
