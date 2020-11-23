@@ -7,10 +7,8 @@ def nyc_pigeon_organizer(data)
       value2.each do [name]
       binding.pry
       sorted_data[name] = {}
-    binding.pry 
+      end
+    end
   end
-  binding.pry
-  end
-end
 
 end
