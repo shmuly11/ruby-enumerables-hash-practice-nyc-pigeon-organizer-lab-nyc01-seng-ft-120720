@@ -4,9 +4,10 @@ def nyc_pigeon_organizer(data)
   sorted_data = {}
   data.each do |key, value|
     value.each do |key2, value2|
-      value2.each do [name]
-      binding.pry
-    #  sorted_data[name] = {}
+      value2.each do |name|
+     
+      sorted_data[name] = {}
+       binding.pry
       end
     end
   end
