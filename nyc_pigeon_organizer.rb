@@ -13,6 +13,8 @@ def nyc_pigeon_organizer(data)
       }
       # binding.pry
       end
+      if data[:color].any? == sorted_data[name]
+        
     end
   end
 binding.pry
